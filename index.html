@@ -15,6 +15,11 @@
                 width:90%;  
              }
 
+             header.page-header{
+              background-color: rgb(166, 0, 255);
+             }
+          
+
          		nav{
 			text-align:center; /* centers the nav */
 		  }
@@ -31,16 +36,17 @@
 			text-decoration: none;
 		  }	    
 
-
-
-
+      footer.page-footer{
+        text-align:center;
+        clear:both;
+      }
 
       </style>
     </Head>
     <body>
-      <h1>My First Web Page</h1>
-
-
+      <header class="page-header">
+        <h1>Stylin with CSS</h1>
+      </header>
 
       <nav>
         <ul>
@@ -53,11 +59,7 @@
         </ul>
       </nav>
   
-
-
-
-
-      <p>I am learning new skills</p>
+      <p>This page provides some example CSS</p>
       <P>Watch my progress
       <p>here as I learn</P>
       <p>Stay Hungry- Stay motivated- Never stop learning</p>
@@ -105,8 +107,15 @@
           <td>Doe</td>
           <td>Lunay@example.com</td>   
       </tr>
+      
     </table>
-      
-      
+    <footer class=""page-footer">
+      <p><small>&copy; 2022 by 
+          Natalia Quezada, All Rights Reserved ~ 
+          <a id="html-checker" href="#">Check HTML</a> ~ 
+          <a id="css-checker" href="#">Check CSS</a></small>
+     </p>
+    </footer>
+        
     </body>
 </html>  
